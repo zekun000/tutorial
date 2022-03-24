@@ -8,7 +8,7 @@ use move_cli::package::cli;
 
 #[test]
 fn move_unit_tests() {
-    let mut path = PathBuf::from(env!("CARGO_MANIFEST_DIR"));
+    let path = PathBuf::from(env!("CARGO_MANIFEST_DIR"));
     cli::run_move_unit_tests(
         &path,
         move_package::BuildConfig {

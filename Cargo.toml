@@ -7,13 +7,8 @@ edition = "2018"
 
 
 [dependencies]
-aptos-vm = { path = "../../aptos/aptos-core/aptos-move/aptos-vm" }
-aptos-workspace-hack = { path = "../../aptos/aptos-core/crates/aptos-workspace-hack" }
-framework = { path = "../../aptos/aptos-core/aptos-move/framework" }
-structopt = "0.3.21"
-move-compiler = { git = "https://github.com/diem/move", rev = "8a260b82dda8175a98ea848fab5adcce467585b3" }
+aptos-vm ={ git = "https://github.com/aptos-labs/aptos-core", rev = "5b525691957a59bf29a68b9b897142e1a351a7be" }
 move-package = { git = "https://github.com/diem/move", rev = "8a260b82dda8175a98ea848fab5adcce467585b3" }
-move-stdlib = { git = "https://github.com/diem/move", rev = "8a260b82dda8175a98ea848fab5adcce467585b3" }
 move-unit-test = { git = "https://github.com/diem/move", rev = "8a260b82dda8175a98ea848fab5adcce467585b3" }
 move-cli = { git = "https://github.com/diem/move", rev = "8a260b82dda8175a98ea848fab5adcce467585b3" }
 
